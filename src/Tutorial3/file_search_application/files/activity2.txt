@@ -1,0 +1,14 @@
+In this exercise, you'll implement a Java program that utilizes multithreading to perform three different sorting algorithms: Selection sort,
+Insertion sort, and Bubble sort.
+Start by creating an array containing integers from 1 to 50, then shuffle
+the array randomly. You'll execute each sorting algorithm in its own
+thread, allowing them to run concurrently. Each algorithm will consist of
+two nested loops, the thread should pause for 0.5 seconds before
+redisplaying the array in the console.
+Once all sorting threads have completed, you'll report the start time, end
+time, and total duration of each sorting process, as well as print the
+number of processors available on your system. This exercise will help
+you understand the application of multi-threading in Java, as well as the
+behavior of different sorting algorithms under concurrent execution.
+Hint: You can get the number of processors by using this statement:
+Runtime.getRuntime().availableProcessors();

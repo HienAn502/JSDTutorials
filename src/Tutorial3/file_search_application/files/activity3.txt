@@ -1,0 +1,5 @@
+Write a program that searches for a keyword in several files
+simultaneously using multiple threads. Each thread should handle the
+search in one file, and the results should be collected and displayed.
+It is noted that the number of threads to create is based on the number
+of files in that folder.

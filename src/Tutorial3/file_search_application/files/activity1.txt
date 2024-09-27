@@ -1,0 +1,8 @@
+Implement a Java program that creates four tasks and four threads to run
+them.
+The first task is to print the letter F 50 times.
+The second task prints the letter I 50 times.
+The third task prints the letter T 50 times.
+The fourth task prints the integers 1 through 100.
+When you run this program, the three threads will share the CPU and take
+turns printing letters and numbers on the console.
